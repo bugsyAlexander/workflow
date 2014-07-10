@@ -6,11 +6,6 @@ body {
   font-size: 1.1em;
 }
  
-#content {
-  color: $pink;
-  font-size: 2em;
-}
- 
 .container {
   width: 90%;
   max-width: 1000px;
@@ -45,11 +40,3 @@ p {
   margin-bottom: 20px;
     margin-top: 15px;
 }
- 
-section {
-  padding: 20px 0;
-}
- 
-.artgroup {
-    @include clearfix;
-} //artgroup
