@@ -4,7 +4,7 @@
   "description": "Portfolio site project",
   "repository": {
     "type": "git",
-    "url": "?.git"
+    "url": "https://github.com/bugsyAlexander/workflow.git"
   },
   "author": "Mynor Alexander",
   "devDependencies": {
