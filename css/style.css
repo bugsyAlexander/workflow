@@ -1,12 +1,11 @@
 @import "http://fonts.googleapis.com/css?family=Patua+One|Inika";
 /* line 3, ../components/sass/_base.scss */
 body {
-  background: #eddbba;
   font-family: "Inika", serif;
   font-size: 1.1em;
 }
 
-/* line 9, ../components/sass/_base.scss */
+/* line 8, ../components/sass/_base.scss */
 .container {
   width: 90%;
   max-width: 1000px;
@@ -14,36 +13,36 @@ body {
   position: relative;
 }
 
-/* line 16, ../components/sass/_base.scss */
+/* line 15, ../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Patua One", sans-serif;
   font-size: 3em;
 }
 
-/* line 21, ../components/sass/_base.scss */
+/* line 20, ../components/sass/_base.scss */
 h1 {
   font-size: 3.5em;
   margin-bottom: 10px;
-  color: #507356;
+  color: #2e2d2c;
 }
 @media (max-width: 700px) {
-  /* line 21, ../components/sass/_base.scss */
+  /* line 20, ../components/sass/_base.scss */
   h1 {
     font-size: 2.2em;
   }
 }
 
-/* line 31, ../components/sass/_base.scss */
+/* line 30, ../components/sass/_base.scss */
 h2 {
   font-size: 1.5em;
-  color: #3e2b3d;
+  color: #f04b47;
 }
 
-/* line 36, ../components/sass/_base.scss */
+/* line 35, ../components/sass/_base.scss */
 p {
   font-size: 1.3em;
   line-height: 1.5em;
-  color: #3e2b3d;
+  color: #989898;
   margin-bottom: 20px;
   margin-top: 15px;
 }
@@ -77,4 +76,99 @@ p {
   .city {
     height: 100px;
   }
+}
+
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+/* line 5, ../components/sass/_reset.scss */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 6, ../components/sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 7, ../components/sass/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 8, ../components/sass/_reset.scss */
+nav ul {
+  list-style: none;
+}
+
+/* line 9, ../components/sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 10, ../components/sass/_reset.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+/* line 11, ../components/sass/_reset.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 12, ../components/sass/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 13, ../components/sass/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 14, ../components/sass/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 15, ../components/sass/_reset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 16, ../components/sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 17, ../components/sass/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 18, ../components/sass/_reset.scss */
+input, select {
+  vertical-align: middle;
 }
