@@ -6,5 +6,9 @@
     "type": "git",
     "url": "?.git"
   },
-  "author": "Mynor Alexander"
+  "author": "Mynor Alexander",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-util": "^2.2.20"
+  }
 }
