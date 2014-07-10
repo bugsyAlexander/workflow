@@ -9,7 +9,10 @@
   "author": "Mynor Alexander",
   "devDependencies": {
     "gulp": "^3.8.6",
+    "gulp-browserify": "^0.5.0",
     "gulp-concat": "^2.3.3",
-    "gulp-util": "^2.2.20"
+    "gulp-util": "^2.2.20",
+    "jquery": "^2.1.1",
+    "mustache": "^0.8.2"
   }
 }
