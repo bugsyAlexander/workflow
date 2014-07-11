@@ -6,11 +6,11 @@
 @import "compass/css3/box-shadow";
  
 //Core partials
+@import "reset";
 @import "variables";
 @import "mixins";
 @import "base";
 @import "modules";
-@import "reset";
  
 // JS partials
 // @import "pixgrid";
