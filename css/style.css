@@ -1,7 +1,7 @@
-@import "http://fonts.googleapis.com/css?family=Patua+One|Inika";
+@import "http://fonts.googleapis.com/css?family=PT+Sans|Droid+Serif' rel='stylesheet' type='text/css";
 /* line 3, ../components/sass/_base.scss */
 body {
-  font-family: "Inika", serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.1em;
 }
 
@@ -15,7 +15,7 @@ body {
 
 /* line 15, ../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Patua One", sans-serif;
+  font-family: "Droid Serif", serif;
   font-size: 3em;
 }
 
