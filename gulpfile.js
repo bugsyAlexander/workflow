@@ -10,7 +10,6 @@ var gulp = require('gulp'),
 var env, 
 	jsSources, 
 	sassSources,
-	htmlSources,
 	outputDir,
 	sassStyle;
 
@@ -25,7 +24,6 @@ if (env === 'development') {
 }
 
 jsSources = ['components/script/*.js'];
-htmlSources = [outputDir + '*.html'];
 sassSources = ['components/sass/style.scss'];
 
 gulp.task('js', function (){
